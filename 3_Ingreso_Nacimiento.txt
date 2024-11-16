@@ -1,0 +1,33 @@
+Algoritmo Ingreso_Nacimiento	
+aux = 1		
+Repetir			
+Escribir  " SISTEMA DE INGRESO " 			
+Escribir  "  - por favor ingrese su año de nacimiento "			
+Escribir  "  - por favor digite su Nombre "			
+Escribir  " Digite " 0 " para finalizar "				
+Leer fecha				
+Leer Nombre				
+edad = 2024 - fecha					
+Escribir  " BIENVENIDO ",Nombre					
+Escribir  " Su edad actual es: ",edad " " "años"						
+si edad >=18 y edad <=55 Entonces							
+Escribir " Usuario valido:" " Bienvenido al sistema."						
+SiNo si 18 > edad Entonces 							
+Escribir " Usuario invalido: No puede ingresar."						
+SiNo si edad >= 55 Entonces							
+Escribir " Usuario invalido: No puede ingresar."						
+SiNo si edad >=0 o edad >=99 Entonces 							
+Escribir " Usuario invalido: No puede ingresar."						
+FinSi			
+FinSi				
+FinSi			
+FinSi				
+Escribir  "¿desea ingresar otro usuario?"				
+Escribir  "1. SI"				
+Escribir  "2. NO"			
+Leer opcion		
+si opcion = 0 Entonces			
+aux = 0	
+FinSi
+Hasta Que aux = 0
+FinAlgoritmo

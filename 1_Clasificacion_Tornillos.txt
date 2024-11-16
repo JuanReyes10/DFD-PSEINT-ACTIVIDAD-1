@@ -1,0 +1,37 @@
+Algoritmo Clasificacion_Tornillos
+aux = 1
+Repetir
+Escribir " Bienvenido al sistema de clasificacion de tornillos" "," " por favor ingrese un tamaño"
+leer tornillo
+si tornillo >=1 y tornillo <=3 Entonces
+Escribir " TORNILLO PEQUEÑO"
+SiNo
+si tornillo <1 Entonces
+Escribir " El tamaño ingresado no es valido "
+SiNo
+si tornillo >3 y tornillo <=5 Entonces
+Escribir " TORNILLO MEDIANO"
+SiNo
+si tornillo >5 y tornillo <=6.5 Entonces
+Escribir " TORNILLO GRANDE"
+SiNo
+si tornillo >6.5 y tornillo <=8.5 Entonces
+Escribir " TORNILLO MUY GRANDE
+SiNo
+si tornillo >8.5 Entonces
+Escribir " TORNILLO GIGANTE"
+FinSi					
+FinSi				
+FinSi			
+FinSi		
+FinSi	
+FinSi		
+Escribir "¿Desea ingresar otro valor?"		
+Escribir "1. SI"		
+Escribir "2. NO"			
+Leer opcion			
+si opcion = 0 Entonces			
+aux = 0	
+FinSi
+Hasta Que aux = 0
+FinAlgoritmo
